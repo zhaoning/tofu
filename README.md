@@ -82,8 +82,9 @@ Maturity is is a linear scale that attempts to report the readiness of the
 artifact (project/script/etc.) for use by the intended end-users (e.g. the
 public).
 
-```[ 1 - Ideation ] -> [ 2 - Prototype ] -> [ 3 - Alpha ] -> [ 4 - Beta ] -> [
-5 - Generally Releasable ]```
+```
+[ 1 - Ideation ] -> [ 2 - Prototype ] -> [ 3 - Alpha ] -> [ 4 - Beta ] -> [ 5 - Generally Releasable ]
+```
 
 - *Ideation* is the first phase, and simply means the artifact is still just a
   bunch of ideas. There is likely not even any code, or other implementation
