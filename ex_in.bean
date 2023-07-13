@@ -1,0 +1,32 @@
+2021-01-01 open Assets:Equipment
+2021-01-01 open Assets:Equipment:ESP-Horizon
+2021-01-01 open Liabilities:Credit:AMEX-Pt
+2021-01-01 open Expenses:Digital:Device
+2021-01-01 open Expenses:Dining-Out
+2021-01-01 open Expenses:Hobbies
+
+2021-05-18 * "Belfield Music" "New guitar etc"
+    Expenses:Hobbies                         2999.00 AUD
+        policy: "depreciation"
+        proxy: 2999.00 AUD
+        periods: 3
+        interval: "month"
+        residual: 2000 AUD
+        buffer: Assets:Equipment:ESP-Horizon
+    Expenses:Hobbies                           15.00 AUD
+        note: "Jim Dunlop Jazz III"
+    Liabilities:Credit:AMEX-Pt
+
+2021-05-20 * "Desky Desk" "New desk for home office" #desky-desk
+    Expenses:Digital:Device                  1024.00 AUD
+        policy: "depreciation"
+        proxy: 1 DESKY
+        periods: 2
+        interval: "month"
+        buffer: Assets:Equipment
+    Liabilities:Credit:AMEX-Pt
+
+2021-05-19 * "KFC" ""
+    Expenses:Dining-Out                        12.80 AUD
+    Liabilities:Credit:AMEX-Pt
+

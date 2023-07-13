@@ -1,0 +1,42 @@
+2021-01-01 open Assets:Equipment
+2021-01-01 open Assets:Equipment:ESP-Horizon
+2021-01-01 open Liabilities:Credit:AMEX-Pt
+2021-01-01 open Expenses:Digital:Device
+2021-01-01 open Expenses:Dining-Out
+2021-01-01 open Expenses:Hobbies
+
+2021-05-18 * "Belfield Music" "New guitar etc"
+    Assets:Equipment:ESP-Horizon             2999.00 AUD
+    Expenses:Hobbies                           15.00 AUD
+        note: "Jim Dunlop Jazz III"
+    Liabilities:Credit:AMEX-Pt
+
+2021-05-19 * "KFC" ""
+    Expenses:Dining-Out                        12.80 AUD
+    Liabilities:Credit:AMEX-Pt
+
+2021-05-20 * "Desky Desk" "New desk for home office" #desky-desk
+    Assets:Equipment                            1 DESKY {1024.00 AUD, 2021-05-18}
+    Liabilities:Credit:AMEX-Pt
+
+2021-06-01 * "Expense recognised"
+    Assets:Equipment:ESP-Horizon             -333.00 AUD
+    Expenses:Hobbies                          333.00 AUD
+
+2021-06-01 * "Expense recognised" #desky-desk
+    Assets:Equipment                            1 DESKY {512.00 AUD, 2021-05-18}
+    Assets:Equipment                           -1 DESKY {1024.00 AUD, 2021-05-18}
+    Expenses:Digital:Device                   512.00 AUD
+
+2021-07-01 * "Expense recognised"
+    Assets:Equipment:ESP-Horizon             -333.00 AUD
+    Expenses:Hobbies                          333.00 AUD
+
+2021-07-01 * "Expense recognised" #desky-desk
+    Assets:Equipment                           -1 DESKY {512.00 AUD, 2021-05-18}
+    Expenses:Digital:Device                   512.00 AUD
+
+2021-08-01 * "Expense recognised"
+    Assets:Equipment:ESP-Horizon             -333.00 AUD
+    Expenses:Hobbies                          333.00 AUD
+
